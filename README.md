@@ -8,6 +8,16 @@
 
 Arquitectura híbrida de Ciencia de Datos y MLOps de extremo a extremo diseñada para identificar clientes con riesgo de cancelación (`churn`), tanto mediante procesamiento masivo automatizado (*batch*) conectado a base de datos como a través de inferencia en tiempo real mediante API REST.
 
+# 🚀 Churn Prediction MLOps Pipeline — Club Intelligence
+
+![MLOps CI Pipeline](https://github.com/willinascrespo46-lgtm/churn-mlops-club/actions/workflows/ci.yml/badge.svg)
+
+🌐 **API en Producción (Swagger UI):** [https://churn-mlops-club.onrender.com/docs](https://churn-mlops-club.onrender.com/docs)# 🚀 Churn Prediction MLOps Pipeline — Club Intelligence
+
+![MLOps CI Pipeline](https://github.com/willinascrespo46-lgtm/churn-mlops-club/actions/workflows/ci.yml/badge.svg)
+
+🌐 **API en Producción (Swagger UI):** [https://churn-mlops-club.onrender.com/docs](https://churn-mlops-club.onrender.com/docs)
+
 ---
 
 ## 🏗️ Arquitectura del Proyecto
@@ -21,12 +31,4 @@ flowchart LR
 
 
 
-# 🚀 Churn Prediction MLOps Pipeline — Club Intelligence
 
-![MLOps CI Pipeline](https://github.com/willinascrespo46-lgtm/churn-mlops-club/actions/workflows/ci.yml/badge.svg)
-
-🌐 **API en Producción (Swagger UI):** [https://churn-mlops-club.onrender.com/docs](https://churn-mlops-club.onrender.com/docs)# 🚀 Churn Prediction MLOps Pipeline — Club Intelligence
-
-![MLOps CI Pipeline](https://github.com/willinascrespo46-lgtm/churn-mlops-club/actions/workflows/ci.yml/badge.svg)
-
-🌐 **API en Producción (Swagger UI):** [https://churn-mlops-club.onrender.com/docs](https://churn-mlops-club.onrender.com/docs)
