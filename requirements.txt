@@ -7,3 +7,5 @@ scikit-learn
 sqlalchemy
 pymysql
 python-dotenv
+pytest
+httpx
