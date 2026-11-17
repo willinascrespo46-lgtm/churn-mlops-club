@@ -18,3 +18,15 @@ flowchart LR
     B --> C{RandomForest Model\nmodelo_churn.joblib}
     C -->|Inferencia Batch\npipeline.py| D[(MySQL: predicciones_churn)]
     C -->|Inferencia Tiempo Real\napi_churn.py| E[FastAPI REST Endpoint\nPOST /predecir]
+
+
+
+# 🚀 Churn Prediction MLOps Pipeline — Club Intelligence
+
+![MLOps CI Pipeline](https://github.com/willinascrespo46-lgtm/churn-mlops-club/actions/workflows/ci.yml/badge.svg)
+
+🌐 **API en Producción (Swagger UI):** [https://churn-mlops-club.onrender.com/docs](https://churn-mlops-club.onrender.com/docs)# 🚀 Churn Prediction MLOps Pipeline — Club Intelligence
+
+![MLOps CI Pipeline](https://github.com/willinascrespo46-lgtm/churn-mlops-club/actions/workflows/ci.yml/badge.svg)
+
+🌐 **API en Producción (Swagger UI):** [https://churn-mlops-club.onrender.com/docs](https://churn-mlops-club.onrender.com/docs)
