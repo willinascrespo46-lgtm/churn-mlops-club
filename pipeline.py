@@ -1,17 +1,22 @@
+import os
 import pandas as pd
 import joblib
+from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from datetime import datetime
+
+load_dotenv()
 
 def ejecutar_pipeline():
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Iniciando pipeline de predicción de Churn...")
 
-    usuario = "root"
-    password = "CONTRASEÑA"
-    host = "localhost"
-    base_datos = "club_intelligence"
+    usuario = os.getenv("DB_USER")
+    password = os.getenv("DB_PASSWORD")
+    host = os.getenv("DB_HOST", "localhost")
+    puerto = os.getenv("DB_PORT", "3306")
+    base_datos = os.getenv("DB_NAME", "club_intelligence")
 
-    engine = create_engine(f"mysql+pymysql://{usuario}:{password}@{host}/{base_datos}")
+    engine = create_engine(f"mysql+pymysql://{usuario}:{password}@{host}:{puerto}/{base_datos}")
 
     df_clientes = pd.read_sql("SELECT * FROM clientes", engine)
     df_transacciones = pd.read_sql("SELECT * FROM transacciones", engine)
